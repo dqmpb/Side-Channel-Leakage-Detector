@@ -12,7 +12,7 @@ The program was tested and developed using the following public datasets:
 
 2. **AES HD**: This dataset contains traces measured on a Xilinx Virtex-5 FPGA. All samples in this dataset are encrypted with the same key. The dataset has 45,000 traces with 1250 trace points each. https://github.com/AISyLab/AES_HD_Ext
 
-3. **AES RD**: This dataset contains traces with random delays, simulating different clock cycles. The samples were obtained from an 8-bit Atmel AVR microcontroller. The dataset requires pre-processing before being used for analysis. The dataset has 50,000 traces with 3500 trace points each. https://github.com/ikizhvatov/randomdelays-traces
+3. **AES RD**: This dataset contains traces with random delays, simulating different clock cycles. The samples were obtained from an 8-bit Atmel AVR microcontroller. The dataset requires pre-processing for an effective analysis. The dataset has 50,000 traces with 3500 trace points each. https://github.com/ikizhvatov/randomdelays-traces
 
 The program would also work on any file that follows the ASCAD's HDF5 format or the MATLAB format of the AES_RD.
 
