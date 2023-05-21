@@ -41,8 +41,8 @@ You can either clone the repository or directly download the necessary files fro
 
  - *Clone the repository*:
 
-     git clone https://github.com/dqmpb/Side-Channel-Leakage-Detector.git
-     cd Side-Channel-Leakage-Detector
+      git clone https://github.com/dqmpb/Side-Channel-Leakage-Detector.git
+      cd Side-Channel-Leakage-Detector
 
  - *Or download the leakage_analyser.py and requirements.txt files directly from the GitHub repository.*
 
