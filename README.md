@@ -39,12 +39,13 @@ The program would also work on any file that follows the ASCAD's HDF5 format or 
 
 You can either clone the repository or directly download the necessary files from GitHub:
 
- - *Clone the repository*:
+ Clone the repository:
 
       git clone https://github.com/dqmpb/Side-Channel-Leakage-Detector.git
+
       cd Side-Channel-Leakage-Detector
 
- - *Or download the leakage_analyser.py and requirements.txt files directly from the GitHub repository.*
+ *Or download the leakage_analyser.py and requirements.txt files directly from the GitHub repository.*
 
 **Step 2: Install Dependencies (Optional: Create a Virtual Environment)**
 
