@@ -28,6 +28,41 @@ The program would also work on any file that follows the ASCAD's HDF5 format or 
 
 3. **Visualization and Data Export**: The program generates and saves various plots and CSV files for the analysis results, including t-values, p-values, chi2 values, and degrees of freedom in the chi2 test.
 
+## Installation Guide for Side-Channel-Leakage-Detector
+
+**Prerequisites**
+
+    Python 3.x installed on your system.
+    Git installed on your system (optional).
+
+**Step 1: Obtain the Files**
+
+You can either clone the repository or directly download the necessary files from GitHub:
+
+    - *Clone the repository*:
+
+  git clone https://github.com/dqmpb/Side-Channel-Leakage-Detector.git
+  cd Side-Channel-Leakage-Detector
+
+    - *Or download the leakage_analyser.py and requirements.txt files directly from the GitHub repository.*
+
+**Step 2: Install Dependencies (Optional: Create a Virtual Environment)**
+
+Install the required dependencies using pip:
+
+pip install -r requirements.txt
+
+You can also install the dependencies listed in requirements.txt individually:
+
+pip install matplotlib numpy scipy
+
+**Step 3: Run the Leakage Analyser
+
+python leakage_analyser.py
+
+That's it! You have successfully installed and set up the Side-Channel-Leakage-Detector project on your local machine. You may also consider creating a virtual environment to isolate dependencies specific to this project from your global Python installation.
+
+
 ## Usage
 
 1. Run the program and choose an option:
