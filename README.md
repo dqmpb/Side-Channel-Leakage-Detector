@@ -39,26 +39,26 @@ The program would also work on any file that follows the ASCAD's HDF5 format or 
 
 You can either clone the repository or directly download the necessary files from GitHub:
 
-    - *Clone the repository*:
+ - *Clone the repository*:
 
-  git clone https://github.com/dqmpb/Side-Channel-Leakage-Detector.git
-  cd Side-Channel-Leakage-Detector
+     git clone https://github.com/dqmpb/Side-Channel-Leakage-Detector.git
+     cd Side-Channel-Leakage-Detector
 
-    - *Or download the leakage_analyser.py and requirements.txt files directly from the GitHub repository.*
+ - *Or download the leakage_analyser.py and requirements.txt files directly from the GitHub repository.*
 
 **Step 2: Install Dependencies (Optional: Create a Virtual Environment)**
 
-Install the required dependencies using pip:
+   Install the required dependencies using pip:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
-You can also install the dependencies listed in requirements.txt individually:
+   You can also install the dependencies listed in requirements.txt individually:
 
-pip install matplotlib numpy scipy
+      pip install matplotlib numpy scipy
 
 **Step 3: Run the Leakage Analyser
 
-python leakage_analyser.py
+      python leakage_analyser.py
 
 That's it! You have successfully installed and set up the Side-Channel-Leakage-Detector project on your local machine. You may also consider creating a virtual environment to isolate dependencies specific to this project from your global Python installation.
 
